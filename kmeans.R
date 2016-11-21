@@ -3,7 +3,7 @@
 #O banco contém 26 variáveis.
 
 #O primeiro passo é ler o banco de dados, importando-o como dataframe
-bdmunic2<-read.csv2('C:/Users/tayri_000/Documents/Mestrado/MINERACAO DE DADOS/Trabalho/BASEDEDADOSCSV3.csv', header=TRUE, sep=';',dec=',')
+bdmunic2<-read.csv2('C:/Users/tayri_000/Documents/Mestrado/MINERACAO DE DADOS/Trabalho/BASEDEDADOSMUNICIPIOSBRASILEIROSFEMINICIDIOS.csv', header=TRUE, sep=';',dec=',')
 
 #O segundo passo é importar a biblioteca necessária para a visualização dos dados
 library(ggplot2)
