@@ -40,3 +40,5 @@ ggplot(bdmunic2, aes(RENDMEDIOPERCAPITA, TAXAMORTES, color = bdmunic2Cluster$clu
 ggplot(bdmunic2, aes(INDICEINSTITUCIONAL, TAXAMORTES, color = bdmunic2Cluster$cluster)) + geom_point()
 #Por região
 ggplot(bdmunic2, aes(A1024COD, TAXAMORTES, color = bdmunic2Cluster$cluster)) + geom_point()
+#Mortes por cluster
+ggplot(bdmunic2, aes(bdmunic2Cluster$cluster, TAXAMORTES, color = A1024COD)) + geom_point()
